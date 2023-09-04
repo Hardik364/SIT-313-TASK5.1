@@ -1,0 +1,30 @@
+.search-bar {
+  display: flex; /* Use flexbox to align elements in a row */
+  align-items: center; /* Vertically center elements */
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.search-input {
+  flex: 1; /* Allow the input to grow and fill available space */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 10px; /* Add some spacing between input and button */
+}
+
+.search-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}

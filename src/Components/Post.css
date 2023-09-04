@@ -1,0 +1,33 @@
+.Head {
+  display: flex;
+  align-items: center; /* Vertically center items */
+  margin-left: 5px;
+}
+
+.Head p {
+  font-size: 16px;
+  margin-left: 20px;
+  margin-right: 10px; /* Add some spacing on the right */
+}
+
+.QA {
+  display: flex;
+  align-items: center; /* Vertically center items */
+  margin: 10px;
+  cursor: pointer; /* Add pointer cursor for better interaction */
+}
+
+/* Add a margin to separate the radio buttons from their labels */
+.QA input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* Style the selected label differently */
+.QA input[type="radio"]:checked + span {
+  font-weight: bold; /* Make the selected label bold */
+}
+
+/* Style the labels to be clickable */
+.QA span {
+  cursor: pointer;
+}
